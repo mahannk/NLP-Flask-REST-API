@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 .vscode
 venv
+devices/__pycache__
