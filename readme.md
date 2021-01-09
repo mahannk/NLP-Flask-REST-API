@@ -1,18 +1,30 @@
 # Natural Language Processing
 
-## Build a Machine Learning REST API with Spacy, Flask and Docker
+## Getting started
 
-### Usage
+Build a Machine Learning NLP REST API with Spacy, Flask and Docker
 
-All responses will have the form
+***Prerequisites***
+
+```code
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+***Running the app***
+
+```code
+$ docker-compose up
+```
+
+### Information extraction from articles
+
+All requests will have the form
 
 ```json
 {
     "articles" : ["article1", "article2", ...]
 }
 ```
-
-### Process articles for tagging
 
 **Definition**
 
@@ -21,6 +33,8 @@ All responses will have the form
 **Response**
 
 - `202 ACCEPTED` on success
+
+All responses will have the form
 
 ```json
 {
